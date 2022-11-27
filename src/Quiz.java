@@ -1,9 +1,13 @@
 
 public class Quiz implements Measurable{
 	private int score;
+	private String name;
 	
-	public Quiz(int QuizScore) {
+	
+	public Quiz(String StudentName, int QuizScore) {
 		score = QuizScore;
+		name = StudentName;
+		
 		
 	}
 	public double getMeasure()
